@@ -8,6 +8,3 @@
 ### RULES
 > Numbers shouldn't be less than 10
 >> input shouldn't be empty
-
-
-***Note: Only works well in browser***
