@@ -16,10 +16,12 @@ function submit(){
                             
                             if(guess == rndGuess) 
                         {     
-                            document.getElementById('result').innerHTML = "Comment: " + "CONGRATULATIONS!!! YOU GUESSED IT RIGHT"; 
+                            document.getElementById('result').innerHTML = "CONGRATULATIONS!!! YOU GUESSED IT RIGHT"; 
+                            document.getElementById('result').className = "success";
                         } 
                         else { 
-                            document.getElementById('result').innerHTML = "Comment: "+"Wrong Guess"; 
+                            document.getElementById('result').innerHTML = "Sorry, You Guessed Wrong, Try Again."; 
+                            document.getElementById('result').className = "danger";
                         } 
 
     }
