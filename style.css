@@ -77,3 +77,20 @@ h3{
     padding: 20px;
   }
 
+  .danger{
+    color: red;
+    background-color: #f2f2f2;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-variant: small-caps;
+  }
+
+  .success{
+    color: green;
+    background-color: #f2f2f2;
+    padding: 15px;
+    font-family: monospace;
+    font-weight: 500;
+    font-variant: unset;
+  }
